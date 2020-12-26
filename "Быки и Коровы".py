@@ -17,8 +17,8 @@ def player_input():
     while True:
         try:
             global player_num
-            z = player_num = input("Введите свои числа:")
-            int(z)
+            k = player_num = input("Введите свои числа:")
+            int(k)
 
             if len(player_num) != 4:
                 print("Введите 4-х значное число")
