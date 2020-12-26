@@ -61,9 +61,9 @@ while user_choice:
         score_counter = score_counter+1
         num_comparison(game_num, player_num)
         if bull_count == 4:
-            print("Вы победили")
-            print("Вы завершили игру, использовав ", str(score_counter), "попыток")
-            print("Хотите еще раз сыграть?")
+            print("Вы победили! Поздравляю!")
+            print("Так же вы завершили игру, использовав ", str(score_counter), "попыток")
+            print("Хотите ли еще раз сыграть?")
             print("Введите \"y\" чтобы поиграть заново")
             print("Для отмены введите любую другую букву")
             choice = input("Выберите: ")
